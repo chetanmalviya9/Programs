@@ -1,9 +1,11 @@
+import java.util.*;
 class Positive_negative
 {
 	public static void main(String args[])
 	{
-		int arr[]={34,-5,-2,66,-22,77,33,-1};
-		int n=arr.length;
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int arr[]=new int[n];
 		int k=0;
 		int a[]=new int [n];
 		for(int i=0;i<n;i++)

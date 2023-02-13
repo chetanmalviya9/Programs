@@ -14,4 +14,4 @@ async function getdata(){
     return await Promise.resolve("i made it !!")}
 
     const data = getdata()
-    console.log(data)
+    console.log(data);
